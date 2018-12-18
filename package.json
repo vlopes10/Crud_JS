@@ -1,0 +1,26 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --report spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlopes10/Crud_JS.git"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.1",
+    "express": "^4.16.4",
+    "mongoose": "~4.11.12",
+    "request": "~2.88.0"
+  },
+  "author": "Hermes Lopes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vlopes10/Crud_JS/issues"
+  },
+  "homepage": "https://github.com/vlopes10/Crud_JS#readme",
+  "devDependencies": {},
+  "description": ""
+}

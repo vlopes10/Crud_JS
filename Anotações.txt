@@ -1,0 +1,41 @@
+Projeto cujo objetivo � o desenvolvimento de um CRUD - API RestFul
+utilizando NodeJs Express e Mongo
+
+NodeJs - Plataforma para rodar JS em servidor fora do navegador
+	- Programa��o orientada � EVENTOS
+Express - Middeware entre node e mongo
+Mongo - Banco de Dados 
+
+API 
+
+API de Produto:
+	Verbos HTTP - Get / Post / Put / Delete
+	id: int
+	nome: String
+	preco: Number
+	descricao: String
+
+
+
+-- Iniciando 
+
+No CMD - npm init (iniciar NPM)  - Ser� gerado um arquivo package.json 
+com as configura��es iniciais de nosso projeto
+
+
+Configurando JSON: 
+
+
+- Declarar repositório
+
+
+
+- Dependencies
+Importando bibliotecas e features necessárias para o projeto
+
+// Mongoose - faz a comunicação entre o DB e a Aplicação
+
+
+Após isso no CMD 
+
+npm install - será criada pasta node-modules, com as bibliotecas necessárias para desenvolver o projeto 
