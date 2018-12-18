@@ -1,4 +1,4 @@
-Projeto cujo objetivo � o desenvolvimento de um CRUD - API RestFul
+﻿Projeto cujo objetivo � o desenvolvimento de um CRUD - API RestFul
 utilizando NodeJs Express e Mongo
 
 NodeJs - Plataforma para rodar JS em servidor fora do navegador
@@ -6,7 +6,10 @@ NodeJs - Plataforma para rodar JS em servidor fora do navegador
 Express - Middeware entre node e mongo
 Mongo - Banco de Dados 
 
-API 
+API - Appication programming interface - interface programação de arquivos 
+ - Serve para integrar sistemas, como uma ponte para conectar aplicações
+se tornando invisível para o usuário final. 
+
 
 API de Produto:
 	Verbos HTTP - Get / Post / Put / Delete
@@ -19,8 +22,9 @@ API de Produto:
 
 -- Iniciando 
 
-No CMD - npm init (iniciar NPM)  - Ser� gerado um arquivo package.json 
-com as configura��es iniciais de nosso projeto
+No CMD - npm init (iniciar NPM)  - Será gerado um arquivo package.json 
+com as configurações iniciais de nosso projeto
+basicamente é o Kickoff do projeto,
 
 
 Configurando JSON: 
@@ -38,4 +42,20 @@ Importando bibliotecas e features necessárias para o projeto
 
 Após isso no CMD 
 
-npm install - será criada pasta node-modules, com as bibliotecas necessárias para desenvolver o projeto 
+npm install - será criada pasta node-modules, com as bibliotecas necessárias para 
+desenvolver o projeto 
+
+
+criação de pasta APP é um padrão de aplicações node 
+modelo é onde será definido o esquema de modelo ( neste caso do produto)
+server.js -irá configurar a aplicação e onde serão criadas as rotas
+
+
+através do server.js declarado no main do JSON , 
+ele utilizará o mesmo para guiar até o JS . 
+
+CMD - dentro da pasta do crud, rodar 
+node server.js -> para iniciar app na porta 8000
+
+após iniciar o app na porta local 8000, abrir o postman, e dar um get no link 
+ativo , ex : http://localhost:8000/api
